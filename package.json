@@ -1,0 +1,28 @@
+{
+  "name": "netlify-functions-template.ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./netlify/functions/hello/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "netlify dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mitsuoka0423/netlify-functions-template.ts.git"
+  },
+  "keywords": [],
+  "author": "Takahiro Mitsuoka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitsuoka0423/netlify-functions-template.ts/issues"
+  },
+  "homepage": "https://github.com/mitsuoka0423/netlify-functions-template.ts#readme",
+  "dependencies": {
+    "@netlify/functions": "^1.4.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^13.0.1",
+    "typescript": "^4.9.5"
+  }
+}
